@@ -26,7 +26,7 @@ Disini terdapat 2 folder
 INI PENTING !!!
 Didalam Folder Front End , carilah File FormAddData dan FormEditData 
 
-kemudian di button Kembali di file tersebut ubah Navigate nya menjadi ("/home) agar ketika diklik button kembali maka akan mengarahkan ke halaman home tampilan data mahasiswa.
+kemudian di button "Kembali" di file tersebut ubah Navigate nya menjadi ("/home) agar ketika diklik button kembali maka akan mengarahkan ke halaman home tampilan data mahasiswa.
 
 saya sengaja melakukan kesalahan tersebut agar kalian dapat memperhatikan lebih detail dari projek saya hehe....
 
