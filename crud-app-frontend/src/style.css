@@ -1,0 +1,289 @@
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.title {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.app-crud{
+    text-align: center;
+}
+
+.app-crud .log-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(31, 31, 179);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+
+.app-crud .log-button:hover{
+    background-color:rgba(31, 31, 179, 0.753);
+    color: white;
+}
+
+.app-crud .tambah-data {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(31, 31, 179);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+   
+}
+
+.app-crud .tambah-data:hover{
+    background-color: rgba(45, 77, 218, 0.836);
+    color: black;
+}
+
+.app-crud table{
+    margin-inline: auto;
+    margin-top: 50px;
+    width: 60%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app-crud table tr {
+    height: 50px;
+}
+
+.app-crud table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.app-crud table tr th {
+    background-color: gold;
+}
+
+.app-crud table tr td i {
+    margin-left: 10px;
+    cursor: pointer ;
+}
+
+.app-crud table tr td .fa-pen-to-square{
+    color: deepskyblue;
+}
+
+.app-crud table tr td .fa-trash {
+    color: red;
+}
+
+/* STYLE FORM ADD DATA */
+
+.form-add-data form table {
+    margin-inline: auto;
+}
+
+.form-add-data form table tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.form-add-data form table tr td label{
+    font-weight: bold;
+    font-style: 18px;
+}
+
+.form-add-data form table tr td input {
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    padding-inline: 10px;
+    font-size: 18px;
+}
+
+.form-add-data form table tr td select {
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    padding-inline: 5px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.form-add-data form table tr .btn {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.form-add-data form table tr td button {
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.form-add-data form table tr td button:nth-child(1) {
+    background-color: gold;
+}
+
+.form-add-data form table tr td button:nth-child(1):hover{
+    background-color: rgba(255, 217, 0, 0.671);
+}
+
+.form-add-data form table tr td button:nth-child(2) {
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+}
+
+.form-add-data form table tr td button:nth-child(2):hover{
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+
+
+/* STYLE FORM LOGIN */
+.login-body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+ 
+ }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgba(0, 0, 255, 0.822);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: rgba(0, 0, 255, 0.822);
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+
+.input img {
+    margin: 0px 30px;
+
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgot-password{
+    color: blue;
+    cursor: pointer;
+}
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: blue;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+
+}
+.teks-pemberitahuan{
+    padding-left: 62px;
+    padding-right: 20px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+
+}
+
+
+
+
